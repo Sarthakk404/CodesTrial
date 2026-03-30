@@ -18,8 +18,6 @@ function useHash() {
   return [hash, (h) => { window.location.hash = h; }];
 }
 
-
-
 const BRICK_BG = `url("data:image/svg+xml,%3Csvg width='120' height='60' viewBox='0 0 120 60' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='120' height='60' fill='%23374151'/%3E%3Crect x='1' y='1' width='58' height='28' rx='1' fill='%234b5563'/%3E%3Crect x='61' y='1' width='58' height='28' rx='1' fill='%23455368'/%3E%3Crect x='1' y='31' width='28' height='28' rx='1' fill='%23455368'/%3E%3Crect x='31' y='31' width='58' height='28' rx='1' fill='%234b5563'/%3E%3Crect x='91' y='31' width='28' height='28' rx='1' fill='%23405060'/%3E%3C/svg%3E")`;
 
 const AVATARS = {
