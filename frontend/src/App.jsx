@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 
-const API = import.meta.env.VITE_API_URL;
+const API = "https://resilient-adaptation-production-a17c.up.railway.app/";
 
 const SEV = {
   light:   { label: "Light Roast",  emoji: "🕯️", color: "#fbbf24", shadow: "#fbbf2444", desc: "A gentle slap on the wrist" },
