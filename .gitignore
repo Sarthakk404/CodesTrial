@@ -1,0 +1,50 @@
+# ── Python ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# ── Environment variables ──────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Node / Frontend ───────────────────────────────────
+node_modules/
+dist-ssr/
+*.local
+.vite/
+
+# ── Logs ──────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ── OS ───────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ──────────────────────────────────────────────
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# ── Misc ─────────────────────────────────────────────
+.pytest_cache/
+.mypy_cache/
+coverage/
+*.db
